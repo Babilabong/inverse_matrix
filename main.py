@@ -94,6 +94,7 @@ if square_matrix is not None:
         print(bcolors.OKBLUE, "\nInverse of matrix A: \n", A_inverse)
         print("=====================================================================================================================", bcolors.ENDC)
         inverse_test(square_matrix, A_inverse)
+        print("the inverse matrix according numpi function is: \n", np.linalg.inv(square_matrix))
 
     except ValueError as e:
         print(str(e))
