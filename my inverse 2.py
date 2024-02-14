@@ -5,8 +5,7 @@ import numpy as np
 def matrix_inverse(matrix):
     counter = 0
     print(bcolors.OKBLUE,
-          "=================== Finding the inverse of a non-singular matrix using elementary row operations ===================\n",
-          matrix, bcolors.ENDC)
+          "=================== Finding the inverse of a non-singular matrix using elementary row operations ===================\n", bcolors.ENDC,matrix, bcolors.ENDC)
 
     if matrix.shape[0] != matrix.shape[1]:
         raise ValueError("Input matrix must be square.")
@@ -111,6 +110,7 @@ if square_matrix is not None:
         print(bcolors.OKBLUE, "\nInverse of matrix A: \n", A_inverse)
         print("=====================================================================================================================", bcolors.ENDC)
         print("the inverse matrix according numpy function is: \n", np.linalg.inv(square_matrix))
+        print("the git link: https://github.com/Babilabong/inverse_matrix\ngroup:Almog Babila, Hay Carmi, Yagel Batito, Meril Hasid\nstudent:Almog Babila 209477678")
 
     except ValueError as e:
         print(str(e))
