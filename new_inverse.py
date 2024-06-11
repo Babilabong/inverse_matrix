@@ -112,7 +112,7 @@ if square_matrix is not None:
         print(bcolors.OKBLUE, "\nInverse of matrix A: \n", A_inverse)
         print("=====================================================================================================================", bcolors.ENDC)
         print("the inverse matrix according numpy function is: \n", np.linalg.inv(square_matrix))
-        print("the git link: https://github.com/Babilabong/inverse_matrix\ngroup:Almog Babila, Hay Carmi, Yagel Batito, Meril Hasid\nstudent:Almog Babila 209477678")
+        print("the git link: https://github.com/Babilabong/inverse_matrix/blob/main/new_inverse.py\ngroup:Almog Babila, Hay Carmi, Yagel Batito, Meril Hasid\nstudent:Almog Babila 209477678")
 
     except ValueError as e:
         print(str(e))
